@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location founder</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="master">
+
+      <div class="left-side">
+        <center><h1 style="font-size: 50px;">Post Office Application.</h1></center>
+        <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+        <img src="./undraw_messenger_re_8bky 1.png" alt="" />
+      </div>
+      
+
+      <div class="right-side">
+        <h1>Your Current IP Address is <span id="yourIp"></span></h1>
+        <button onclick="ShowData()">Get Started</button>
+      </div>
+    </div>
+
+    <div class="post" id="post">
+      <div class="postOfficeDiv" id="postOfficeDiv">
+        
+      </div>
+
+      <div class="about" id="about">
+        <div class="info-div" id="info-div">
+          
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
